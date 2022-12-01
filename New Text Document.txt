@@ -1,0 +1,191 @@
+SDLC - S/W devlopement life cycle
+   WaterFall Model
+   Agile Model
+   DevOps = Dev + Ops = It's just a culter or methodology which is used by organisation to 
+                         Devlope S/W
+           - Immidieate Release  
+           - Saving Cost  
+           - Improving Quality
+Proj/Product = AlphaX
+
+Mngr = MgrX
+
+   Hiring --
+
+Planning = Architect - 2 No = JIRA | Confluence
+
+Dev = Coder = 5 Nos = 5 Modues = 
+
+    Code Intigration =  GIT | GITLAB | SVN
+                            Who 
+                            What
+                            Where
+                            when
+                            Why 
+                          ------
+                           VersionIng
+
+   Code Annalysis/Review = SonarQube
+   
+   Bulid Mgmt =  Maven | MsBuild   
+                 Java     .Net
+          for 1 single build you follow 20 sets step
+              20 Times bulid/day
+
+  UnitTesting / UT = JUnit | MUnit
+                      java    .net
+
+  Packaging = 
+              
+              2 Types
+		App - exe | tar | zip | war | jar 
+		Sys - Msi(w) | rpm,debians (L) | dmg (mac)
+
+  Artifact Mgmt - Nuget | Nexus | Artifact
+  
+  Deployment - Ansible | Chef | Puppet
+          
+         Dev
+          200 Servers
+          100 W | 100 L
+          50 Mysql | 50 O | 50 Mongodb | 50 MSsql
+          50 IIS | 50 Tom | 50 WS | 50 Nginix
+          100 diff
+         QA
+          200 Servers
+          100 W | 100 L
+          50 Mysql | 50 O | 50 Mongodb | 50 MSsql
+          50 IIS | 50 Tom | 50 WS | 50 Nginix
+          100 diff
+         Stg
+           200 Servers
+          100 W | 100 L
+          50 Mysql | 50 O | 50 Mongodb | 50 MSsql
+          50 IIS | 50 Tom | 50 WS | 50 Nginix
+          100 diff	 
+	 Prod
+          200 Servers
+          100 W | 100 L
+          50 Mysql | 50 O | 50 Mongodb | 50 MSsql
+          50 IIS | 50 Tom | 50 WS | 50 Nginix
+          100 diff
+      ----------------------------------------
+             1 dep -- 8mins
+           200 dep -- 8mins + 2mins = 10mins 
+           ------------------------
+            Parallel Deployment 
+   
+             Gui Enviroment
+                  Urbancode -- IBM
+                  Octopus   --  
+   1. How will get 200 server in 2 mins ??
+             
+		Cloude | Container
+                
+            Cloude - 2types
+                  Public Cloud  -- AWS | Azure | GCP
+                  Private     -- Openstack | Vsphere
+
+            Conatiner = Docker | Kubernets
+
+ AT - Aceptance test
+              
+                 -- Feeback
+
+ Code Coverage --  Jacoco | Ncover
+                     Java    .net
+
+-------
+
+
+Jenkins = CI tool
+          
+          -- schedule
+          -- Intigrate
+          -- Feedback  
+     
+ Plan --> Code Intg --> Analysis --> build --> UT --> Pkg --> Deployment --> AT --> CC
+
+ github.com
+   
+
+Git 
+
+ It is A Version Control System.
+ It's Used As a repository
+
+
+VCS
+
+   2types
+          CVCS - Centralised VCS - Apache SVN 
+          DVCS - Distributed VSC - GIT, Heroku, 
+
+
+    CVCS Vs DVCS
+
+
+ Why Git ??
+
+Git Architecture
+
+  
+Git Commands
+
+   git scm tool --> Download
+
+git config --list -> To see configuration
+
+git init --> To create a bare repository
+
+git add <File/Folder Name> --> To add staging area
+
+git commit -m "<Messsage>" --> To Commit
+
+git pull origin master --> To download from github
+
+git push origin master ---> To upload to github
+
+git remote add origin <git repo url> --> to add repository link
+
+git clone <repo url> --> To clone/download a total repository from github
+
+Rajkiran56555
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+    
+       
+
+       
+        
+
+  
+  
+                                                 
+ 
+
+ 
+
+
+        
